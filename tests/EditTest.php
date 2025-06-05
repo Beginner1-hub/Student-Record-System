@@ -18,9 +18,6 @@ echo $edit ? "Edit Test: Passed<br>" : "Edit Test: Failed<br>";
 $delete = $conn->query("DELETE FROM students WHERE id = 105");
 echo $delete ? "Delete Test: Passed<br>" : "Delete Test: Failed<br>";
 
-// CSS/UI Manual Check
-echo "CSS Test: Check visually in browser<br>";
-echo "Responsive Test: Resize window to check<br>";
 
 $conn->close();
 ?>
