@@ -1,12 +1,10 @@
 <?php
-// Basic Test Log - No Emoji Symbols
 
 $conn = new mysqli("localhost", "root", "", "student_management");
 if ($conn->connect_error) {
     die("Database connection failed.");
 }
 
-echo "<h2>Radha Gaihre - Basic Test Log</h2>";
 
 // Fetch Test
 $result = $conn->query("SELECT * FROM students WHERE id = 101");
