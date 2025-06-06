@@ -1,7 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
-require_once 'config.php';
+require_once 'connect.php';
 class AdminTest extends TestCase {
     public function testLoginValidation() {
         $this->assertTrue(true);
