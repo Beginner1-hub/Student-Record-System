@@ -1,7 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
-require_once 'config.php';
+require_once 'connect.php';
 class ResultTest extends TestCase {
     public function testAddResult() {
         $this->assertTrue(true);
